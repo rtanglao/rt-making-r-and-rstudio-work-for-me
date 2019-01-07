@@ -9,4 +9,4 @@ How i make the great R and R Studio work fabulously for me :-) NOT SUPPORTED #ym
 [1] 66.31667
 ```
 
-* the above is accurate you can use use lubridate lubridate durations, but good enough if we don't wrap around a month
+* The above is the most accurate! You can also use lubridate durations, but durations aren't accurate if when you transition from month to month or year to year
