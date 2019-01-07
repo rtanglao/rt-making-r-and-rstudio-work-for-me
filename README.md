@@ -14,5 +14,5 @@ interval(ymd_hms("2019-01-04 18:40:00",
 
 * The above ^^^^ is the most accurate! 
 You can also use lubridate durations, but 
-durations aren't accurate if when you transition 
+durations aren't accurate when you transition 
 from month to month or year to year
