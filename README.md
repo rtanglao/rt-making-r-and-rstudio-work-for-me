@@ -4,7 +4,13 @@ How i make the great R and R Studio work fabulously for me :-) NOT SUPPORTED #ym
 
 ## 09January2019 Configuring gmailr
 
+
 * followed https://github.com/jennybc/send-email-with-r
+* in order not to have to do the oauth dance every time, you have to:
+
+```r
+install.packages("httpuv")
+```
 
 ## 07January2019 how to calculate time differences for support
 
