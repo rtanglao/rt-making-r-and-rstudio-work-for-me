@@ -2,6 +2,15 @@
 
 How i make the great R and R Studio work fabulously for me :-) NOT SUPPORTED #ymmv  #jennybryanrocks #hadleyrocks
 
+## 25January2019 how to start rstudio server in wsl
+```bash
+sudo rstudio-server start
+```
+and then from firefox on the windows side, open this url:
+```
+http://localhost:8787/
+```
+
 ## 09January2019 Configuring gmailr
 
 
