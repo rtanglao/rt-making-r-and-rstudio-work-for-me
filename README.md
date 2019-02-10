@@ -2,6 +2,18 @@
 
 How i make the great R and R Studio work fabulously for me :-) NOT SUPPORTED #ymmv  #jennybryanrocks #hadleyrocks
 
+## 09February2019 getting environment variables to work
+
+* Create ~/.Renviron with the following lines
+
+```bash
+MONGO_PORT="27017"
+MONGO_HOST="127.0.0.1"
+SUMO_QUESTIONS_DB="ffdesktop20182019"
+```
+
+* restart R in R Studio
+
 ## 25January2019 how to start rstudio server in wsl
 ```bash
 sudo rstudio-server start
